@@ -1,7 +1,7 @@
 {
   "name": "atom-toloframework",
   "main": "./lib/atom-toloframework",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [
   ],
@@ -9,7 +9,7 @@
     "atom-workspace": "atom-toloframework:toggle"
   },
   "repository": "https://github.com/atom/atom-toloframework",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
