@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "atom-toloframework:toggle"
+    "f12 f12": "atom-toloframework:toggle"
   }
 }

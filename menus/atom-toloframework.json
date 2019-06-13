@@ -1,26 +1,22 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle atom-toloframework",
-        "command": "atom-toloframework:toggle"
-      }
-    ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "atom-toloframework",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "atom-toloframework:toggle"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    "context-menu": {
+        "atom-text-editor": [{
+            "label": "Toggle Toloframework",
+            "command": "atom-toloframework:toggle"
+        }],
+        ".tree-view": [{
+            "label": "Toloframework",
+            "command": "atom-toloframework:toggle"
+        }]
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "Toloframework",
+            "submenu": [{
+                "label": "Toggle",
+                "command": "atom-toloframework:toggle"
+            }]
+        }]
+    }]
 }
